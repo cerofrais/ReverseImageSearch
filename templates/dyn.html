@@ -1,0 +1,22 @@
+{% extends "uploaded.html" %}
+{% block body %}
+    <body>
+    <center> <h2>Input Image :</h2></center>
+    <br>
+    <img src="{{url_for('static',filename = infile )}}" width=512 height=512>
+    <hr>
+    {% for result in seq %}
+        <center><h2> Detected in Input image : </h2></center>
+        <img src="{{url_for('static',filename = result.in_img )}}" width=256 height=256>
+        <br>
+        <hr>
+        <center><h2> Suggestion for the above object : </h2></center>
+        {% for img in result.out_img %}
+             <img src="{{url_for('static',filename = img  )}}"  width=256 height=256>
+        {% endfor %}
+        <br>
+        <hr>
+    {% endfor %}
+
+    </body>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "uploaded.html" %}
+{% block body %}
+    <body>
+        <p>Uploaded : </p>
+        <img src="{{url_for('static',filename = img_1)}} "width="256" height="256">
+        <p>Results : </p>
+        <img src="{{url_for('static',filename = img_2)}}">,<img src="{{url_for('static',filename = img_3)}}">,<img src="{{url_for('static',filename = img_4)}}">
+
+    </body>
+{% endblock %}

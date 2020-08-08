@@ -1,0 +1,6 @@
+        <!--<div>{{ result.in_img }}</div>-->
+        <!--<div> {{ result.out_img }}</div>-->
+
+
+                <img src="{{url_for('static',filename = {{ result.in_img }} )}}">
+                {{ result.in_img }}

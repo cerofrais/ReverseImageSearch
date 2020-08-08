@@ -1,0 +1,15 @@
+{% extends "uploaded.html" %}
+{% block body %}
+    <body>
+    <center> <h2>Input Image :</h2></center>
+    <br>
+    <img src="{{url_for('static',filename = infile )}}" width=128 height=128>
+    <hr>
+    {% for result in obj %}
+        <h3>Bar code Type : {{result.type}}</h3>
+        <h3>Data : {{result.data}}</h3>
+        <br>
+    {% endfor %}
+
+    </body>
+{% endblock %}

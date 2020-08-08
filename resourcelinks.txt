@@ -1,0 +1,31 @@
+http://www.vision.caltech.edu/Image_Datasets/Caltech256/256_ObjectCategories.tar
+classes :   045.computer-keyboard
+            046.computer-monitor
+            047.computer-mouse
+            027.calculator
+            031.car-tire
+            041.coffee-mug
+            058.doorknob
+            101.head-phones
+            127.laptop-101
+            156.paper-shredder
+            155.paperclip
+            161.photocopier
+            162.picnic-table
+            171.refrigerator
+            180.screwdriver
+            199.spoon
+            220.toaster
+            238.video-projector
+            239.washing-machine
+----http://www.vision.caltech.edu/pmoreels/Datasets/Home_Objects_06/
+
+http://www.cs.utoronto.ca/~kriz/cifar-100-python.tar.gz
+classes :   household electrical devices	clock, computer keyboard, lamp, telephone, television
+            household furniture	bed, chair, couch, table, wardrobe
+            vehicles 1	bicycle, bus, motorcycle, pickup truck, train
+            vehicles 2	lawn-mower, rocket, streetcar, tank, tractor
+----------------------------------open imagges-----------------
+https://github.com/cvdfoundation/open-images-dataset#download-full-dataset-with-google-storage-transfer
+https://storage.googleapis.com/openimages/2018_04/class-descriptions.csv
+https://storage.googleapis.com/openimages/2018_04/train/train-images-with-labels-with-rotation.csv

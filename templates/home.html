@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+
+</head>
+<body>
+<a href="/">
+   <button>Home</button>
+</a>
+<center>
+    <h1> Home page to Reverse image serach </h1>
+    <p> upload a file(jpg,jpeg,png only) here:  </p>
+    <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <input type="submit">
+    </form>
+    <h1> Decoder for Barcode, QR code</h1>
+    <p> upload a file(jpg,jpeg,png only) here:  </p>
+    <form id="decoder-form" action="{{ url_for('decoder') }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <input type="submit">
+    </form>
+<!--    <p> Select a file to see working on pre uploaded files .</p>-->
+
+<!--    <form  action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">-->
+<!--        <select>-->
+<!--          <option value="Img1">Image1</option>-->
+<!--          <option value="Img2">Image2</option>-->
+<!--        </select>-->
+<!--        <input type="submit">-->
+<!--    </form>-->
+</center>
+<a href="/">
+   <button>Home</button>
+</a>
+
+<!--<a href="http://www.google.com" target="_blank">Link</a>-->
+</body>
+</html>

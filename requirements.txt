@@ -1,0 +1,16 @@
+autopep8==1.4.4
+pandas==0.24.2
+numpy==1.16.3
+tensorflow==1.13.1
+keras==2.2.4
+opencv-python==4.1.0.25
+opencv-contrib-python==4.1.0.25
+scikit-learn==0.20.3
+scipy==1.2.1
+Flask==0.12.2
+Flask-Images
+joblib
+azure-cognitiveservices-vision-customvision==1.0.0
+pyzbar==0.1.8
+azure-storage-blob==1.5.0
+azure-cosmosdb-table==1.0.5
